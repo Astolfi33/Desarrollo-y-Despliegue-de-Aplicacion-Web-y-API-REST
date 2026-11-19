@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+{% block content %}
+<link rel="stylesheet" href="/stylesheets/equipos.css">
+<div class="equipos">
+    <h1 class="titulo">{{equipo.nombre}}</h1>
+    
+    {% if equipo.filename %}
+        {% if 'http' in equipo.filename %}
+            <img src="{{equipo.filename}}" alt="{{equipo.nombre}}" class="logo_show">
+        {% else %}
+            <img src="/download/{{equipo.filename}}" alt="{{equipo.nombre}}"class="logo_show">
+        {% endif %}
+    {% endif %}
+    
+    <div class="info_equipo_show">
+        <p><b>Ciudad:</b> {{equipo.ciudad}}</p>
+        <p><b>Comunidad Autónoma:</b> {{equipo.ccaa}}</p>
+        <p><b>Fundación:</b> {{equipo.fundacion}}</p>
+        <p><b>Pabellón:</b> {{equipo.pabellon}}</p>
+        <p><b>Capacidad:</b> {{equipo.capacidad}}</p>
+        <p><b>Máximo Anotador:</b> {{equipo.max_anotador}}</p>
+    </div>
+    <div class="botones">
+        <a href="/equipos"><button class="update">Atrás</button></a>
+    </div>
+</div>
+{% endblock %}

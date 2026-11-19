@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+{% block content %}
+<link rel="stylesheet" href="/stylesheets/equipos.css">
+<div class="equipos">
+    <h1 class="titulo">Equipos de la OK Liga</h1>
+
+    <a href="/equipos/new" id="new"><button id="crear_equipo">Crear nuevo equipo</button></a>
+    <form action="/equipos/" method="GET" class="buscador">
+        <h2>Filtrar</h2>
+        <label>Nombre:</label>
+        <input type="text" name="nombre">
+        <label>Ciudad:</label>
+        <input type="text" name="ciudad">
+        <button type="submit" class="update">Buscar</button>
+        <a href="/equipos"><button type="button" class="delete">Limpiar</button></a>
+    </form>
+
+    <ul id="equipos">
+        {% for equipo in equipos %}
+        <li class="equipo">
+            {% if equipo.filename %}
+                {% if 'http' in equipo.filename %}
+                    <img src="{{equipo.filename}}" alt="{{equipo.nombre}}" class="logo">
+                {% else %}
+                <img src="/thumbnail/{{equipo.filename}}" alt="{{equipo.nombre}}" class="logo">
+                {% endif %}
+            {% endif %}
+            <div class="info_equipo">
+                <p><b>{{equipo.nombre |upper}}</b></p>
+                <p><b>Ciudad</b>: {{equipo.ciudad}}</p>
+                <p><b>Comunidad autónoma</b>: {{equipo.ccaa}}</p>
+            </div>
+            <div class="botones">
+                <a href="/equipos/{{equipo.id}}"><button class="update">Ver ficha</button></a>
+
+                <a href="/equipos/{{equipo.id}}/edit"><button class="update">Actualizar equipo</button></a>
+                <form action='/equipos/{{equipo.id}}' method='POST'>
+                    <input type='hidden' name='_method' value='DELETE'>
+                    <button type='submit' class="delete">Eliminar equipo</button>
+                </form>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}  

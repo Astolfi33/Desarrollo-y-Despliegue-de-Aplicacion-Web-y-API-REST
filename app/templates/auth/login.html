@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+{% block content %}
+    <h2 class="titulo">Iniciar Sesión</h2>
+    <form action="/auth/login" method="POST" class="formulario">
+        <label>Email:</label>
+        <input type="email" name="email" required>
+        <label>Contraseña:</label>
+        <input type="password" name="password" required>
+        <button type="submit">Ingresar</button>
+    </form>
+    <p id="no_acc">¿No tienes cuenta? <a href="/auth/register">Regístrate</a></p>
+{% endblock %}

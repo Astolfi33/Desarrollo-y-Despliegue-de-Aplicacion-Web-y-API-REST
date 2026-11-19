@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block content %}
+<link rel="stylesheet" href="/stylesheets/usuarios.css">
+<div class="usuarios">
+    <h1 class="titulo">Crear nuevo usuario</h1>
+
+        <form action="/usuarios" method="POST" class="formulario">
+            <label>Username:</label>
+            <input type="text" name="username" required>
+            <label>Email:</label>
+            <input type="text" name="email" required>
+            <label>Password:</label>
+            <input type="text" name="password" required>
+            <button type="submit">Crear</button>
+            <button type="reset">Limpiar</button>
+        </form>
+    </div>
+{% endblock %}

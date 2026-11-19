@@ -1,0 +1,51 @@
+{% extends "layout.html" %}
+{% block content %}
+<link rel="stylesheet" href="/stylesheets/equipos.css">
+<div clas="equipos">
+    <h1 class="titulo">Crear nuevo equipo</h1>
+
+        <form action="/equipos" method="POST" class="formulario" enctype="multipart/form-data">
+            <label>Nombre:</label>
+            <input type="text" name="nombre" required>
+            <label>Ciudad:</label>
+            <input type="text" name="ciudad" required>
+
+            <label>Comunidad autónoma:</label>
+            <select name="ccaa" required>
+                <option value="Andalucía">Andalucía</option>
+                <option value="Aragón">Aragón</option>
+                <option value="Canarias">Canarias</option>
+                <option value="Cantabria">Cantabria</option>
+                <option value="Castilla-La Mancha">Castilla-La Mancha</option>
+                <option value="Castilla y León">Castilla y León</option>
+                <option value="Cataluña">Cataluña</option>
+                <option value="Comunidad de Madrid">Comunidad de Madrid</option>
+                <option value="Comunidad Foral de Navarra">Comunidad Foral de Navarra</option>
+                <option value="Comunidad Valenciana">Comunidad Valenciana</option>
+                <option value="Extremadura">Extremadura</option>
+                <option value="Galicia">Galicia</option>
+                <option value="Islas Baleares">Islas Baleares</option>
+                <option value="La Rioja">La Rioja</option>
+                <option value="Pais Vasco">País Vasco</option>
+                <option value="Asturias">Principado de Asturias</option>
+                <option value="Región de Murcia">Región de Murcia</option>
+            </select>
+
+            <label>Fundación:</label>
+            <input type="number" name="fundacion" required>
+            <label>Pabellón:</label>
+            <input type="text" name="pabellon" required>
+            <label>Capacidad:</label>
+            <input type="number" name="capacidad" required>
+            <label>Máximo anotador</label>
+            <input type="text" name="max_anotador" required>
+            <label for="imagen">Logotipo</label>
+            <input type="file" id="file" name="file" required>
+            <div class="botones">
+                <button type="submit" class="update">Crear</button>
+                <button type="reset" class="delete">Limpiar</button>
+            </div>
+        </form>
+    </div>
+{% endblock %}
+

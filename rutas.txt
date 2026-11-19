@@ -1,0 +1,20 @@
+Práctica 2 - Tecnologías Web (TECW)
+David Astolfi Laffitte
+
+Ruta                           Descripción
+
+GET /                          Muestra página de bienvenida. Renderiza index.html
+GET /about                     Muestra página de about. Renderiza about.html
+GET /equipos                   Muestra todos los equipos. Renderiza equipos/list.html
+GET /equipos/new               Formulario para crear nuevos equipos. Renderiza equipos/new.html
+POST /equipos                  Invocado por el formulario anterior para crear un equipo. Redirige a /equipos
+GET /equipos/<equipoId>        Muestra información de un solo equipo. Renderiza equipos/show.html
+GET /equipos/<equipoId>/edit   Formulario para editar equipos. Renderiza equipos/edit.html
+PUT /equipos/<equipoId>        Invocado por el formulario anterior para editar un equipo. Redirige a /equipos
+DELETE /equipos/<equipoId>     Invocado por el botón "Eliminar equipo" presente en equipos/list.html. Debe borrar un equipo
+GET /usuarios                  Muestra todos los usuarios. Renderiza usuarios/list.html
+GET /usuarios/new              Formulario para crear nuevos usuarios. Renderiza usuarios/new.html
+POST /usuarios                 Invocado por el formulario anterior para crear un usuario. Redirige a /usuarios
+GET /usuarios/<usuarioId>/edit Formulario para editar usuarios. Renderiza usuarios/edit.html
+PUT /usuarios/<usuarioId>      Invocado por el formulario anterior para editar un usuario. Redirige a /usuarios
+DELETE /usuarios/<usuarioId>   Invocado por el botón "Eliminar" presente en usuarios/list.html. Debe borrar un usuario

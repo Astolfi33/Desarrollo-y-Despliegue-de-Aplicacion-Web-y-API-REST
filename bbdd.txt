@@ -1,0 +1,1 @@
+En est práctica se hace uso de la base de datos MySQL versión 8.0.45, con el conector mysql-connector-python y el ORM SQLAlchemy

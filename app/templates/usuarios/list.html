@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% block content %}
+<link rel="stylesheet" href="/stylesheets/usuarios.css">
+<div class="usuarios">
+<h1 class="titulo">Usuarios</h1>
+<a href="/usuarios/new" id="new"><button id="crear_usuario">Crear nuevo usuario</button></a>
+
+<ul id="usuarios">
+    {% for usuario in usuarios %}
+    <li class="usuario">
+        <div class="info_usuario">
+            <p><b>Username</b>: {{usuario.username}}</p>
+            <p><b>Email</b>: {{usuario.email}}</p>
+        </div>
+        <div class="botones">
+            <a href="/usuarios/{{usuario.id}}/edit"><button class="update">Editar</button></a>
+            <form action='/usuarios/{{usuario.id}}' method='POST'>
+                <input type='hidden' name='_method' value='DELETE'>
+                <button type='submit' class="delete">Eliminar</button>
+            </form>
+        </div>
+    </li>
+    {% endfor %}
+</ul>
+</div>
+{% endblock %}

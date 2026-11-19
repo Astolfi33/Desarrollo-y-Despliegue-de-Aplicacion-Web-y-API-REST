@@ -1,0 +1,99 @@
+.equipos #equipos { 
+    display: flex; 
+    flex-wrap: wrap; 
+    list-style: none; 
+}
+.equipos .buscador { 
+    margin-left: 20px; 
+    width: 60%; 
+    padding: 20px; 
+    color: #F0F0F0; 
+    background-color:#181818 ; 
+    border: 1px solid #333; 
+    border-radius: 24px; 
+    display: flex; 
+    flex-wrap: wrap; 
+    align-items: center; 
+    gap: 15px; 
+}
+.equipos .buscador h2 { 
+    width: 100%; 
+    margin: 0 0 10px 0; 
+    padding-left: 0; 
+}
+.equipos .buscador input[type="text"] { 
+    background-color: #2b2b2b; 
+    border: 1px solid #555; 
+    color: white; 
+    padding: 8px 12px; 
+    border-radius: 6px; 
+    outline: none; 
+}
+.equipos .buscador button { 
+    padding: 8px 16px; 
+    cursor: pointer; 
+    border:none; 
+    border-radius: 6px; 
+    font-weight: bold; 
+}
+.equipos #crear_equipo { 
+    margin-bottom: 30px; 
+    margin-left: 20px; 
+    font-size: 20px; 
+    border-radius: 24px; 
+    padding: 10px 25px; 
+}
+.equipos #crear_equipo:hover { 
+    cursor: pointer; 
+}
+.equipos #crear_equipo:active { 
+    transform: scale(0.95); 
+}
+.equipos .equipo { 
+    width: 300px; 
+    display: flex; 
+    flex-direction: column; 
+    text-align: left; 
+    align-items: flex-start; 
+    padding: 20px; 
+    margin-top: 20px; 
+    margin-right: 20px; 
+    color: #F0F0F0; 
+    background-color:#181818 ; 
+    border: 1px solid #333; 
+    border-radius: 24px; 
+}
+.equipos .equipo:hover { 
+    transform: scale(1.05); 
+}
+.equipos .logo { 
+    display: flex; 
+    height: 100px; 
+    width: 100px; 
+    align-self: center; 
+}
+.equipos img.logo_show { 
+    display: block; 
+    margin: 0 auto; 
+    width: 250px; 
+    height: auto; 
+    border-radius: 16px; 
+    margin-bottom: 30px; 
+}
+.equipos .info_equipo_show { 
+    background-color: #1e1e1e; 
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 40px; 
+    border-radius: 10px; 
+}
+.equipos .info_equipo_show p{ 
+    margin-bottom: 15px; 
+    border-bottom: 1px solid #333; 
+    padding-bottom: 5px; 
+}
+.equipos .info_equipo_show b{ 
+    color: white; 
+    display: inline-block; 
+    width: 180px; 
+}

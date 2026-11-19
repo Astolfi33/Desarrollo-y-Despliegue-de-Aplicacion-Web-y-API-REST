@@ -1,0 +1,11 @@
+Práctica 2 - Tecnologías Web (TECW)
+David Astolfi Laffitte
+
+Se han implementado dos filtros de búsqueda en /equipos mediante un GET en la URL que se procesan antes de renderizar la plantilla.
+
+- Filtro por nombre: Comprueba si el valor introducido por el usuario está contenido dentro del atributo nombre del equipo
+
+- Filtro por ciudad: Comprueba si el valor introducido por el usuario está contenido dentro del atributo 'ciudad' del equipo
+
+Funcionamiento: en equipos.py se obtienen los argumentos de filtrado mediante request.args.get(). Se copia el seeder original en una variable y se aplican las condiciones de filtrado sobre esa copia. Si ambos campos del filtro tienen valor, el resultado debe cumplir ambas condiciones.
+También se puede limpiar el filtro pulsando el botón limpiar, que realiza una petición GET a /equipos sin parámetros adicionales

@@ -1,0 +1,14 @@
+{% extends 'layout.html' %}
+{% block content %}
+    <h2 class="titulo">Registro</h2>
+    <form action="/auth/register" method="POST" class="formulario">
+        <label>Username:</label>
+        <input type="text" name="username" required>
+        <label>Email:</label>
+        <input type="email" name="email" required>
+        <label>Contraseña:</label>
+        <input type="password" name="password" required>
+        <button type="submit">Registrarse</button>
+    </form>
+    <p id="no_acc">¿Ya tienes cuenta? <a href="/auth/login">Inicia sesión</a></p>
+{% endblock %}

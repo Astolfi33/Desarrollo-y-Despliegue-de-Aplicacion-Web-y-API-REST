@@ -1,0 +1,158 @@
+2026-03-21 12:44:02,585 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-21 12:44:02,587 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-03-21 12:44:02,588 [INFO] werkzeug:  * Restarting with stat
+2026-03-21 12:44:04,338 [WARNING] werkzeug:  * Debugger is active!
+2026-03-21 12:44:04,343 [INFO] werkzeug:  * Debugger PIN: 103-019-607
+2026-03-21 12:44:13,980 [INFO] api_equipos: Se carga la lista de todos los equipos
+2026-03-21 12:44:14,091 [INFO] werkzeug: 127.0.0.1 - - [21/Mar/2026 12:44:14] "GET /api/v1/equipos/ HTTP/1.1" 200 -
+2026-03-21 12:44:15,203 [INFO] werkzeug: 127.0.0.1 - - [21/Mar/2026 12:44:15] "GET /favicon.ico HTTP/1.1" 200 -
+2026-03-21 12:45:48,099 [INFO] api_equipos: Se busca equipo con id: 1
+2026-03-21 12:45:49,669 [INFO] werkzeug: 127.0.0.1 - - [21/Mar/2026 12:45:49] "GET /api/v1/equipos/1 HTTP/1.1" 200 -
+2026-03-21 12:50:21,287 [INFO] werkzeug: 127.0.0.1 - - [21/Mar/2026 12:50:21] "[32mGET /apidocs HTTP/1.1[0m" 308 -
+2026-03-21 12:50:21,559 [INFO] werkzeug: 127.0.0.1 - - [21/Mar/2026 12:50:21] "GET /apidocs/ HTTP/1.1" 200 -
+2026-03-21 12:50:21,650 [INFO] werkzeug: 127.0.0.1 - - [21/Mar/2026 12:50:21] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 -
+2026-03-21 12:50:21,761 [INFO] werkzeug: 127.0.0.1 - - [21/Mar/2026 12:50:21] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 -
+2026-03-21 12:50:22,373 [INFO] werkzeug: 127.0.0.1 - - [21/Mar/2026 12:50:22] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 -
+2026-03-21 12:50:23,651 [INFO] werkzeug: 127.0.0.1 - - [21/Mar/2026 12:50:23] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+2026-03-21 12:50:24,148 [INFO] werkzeug: 127.0.0.1 - - [21/Mar/2026 12:50:24] "GET /apispec_1.json HTTP/1.1" 200 -
+2026-03-21 12:50:24,177 [INFO] werkzeug: 127.0.0.1 - - [21/Mar/2026 12:50:24] "GET /flasgger_static/favicon-32x32.png HTTP/1.1" 200 -
+2026-03-21 12:51:03,610 [INFO] api_equipos: Se busca equipo con id: 1
+2026-03-21 12:51:03,619 [INFO] werkzeug: 127.0.0.1 - - [21/Mar/2026 12:51:03] "GET /api/v1/equipos/1 HTTP/1.1" 200 -
+2026-03-21 12:52:17,615 [INFO] api_equipos: Se busca equipo con id: 1
+2026-03-21 12:52:17,623 [INFO] werkzeug: 127.0.0.1 - - [21/Mar/2026 12:52:17] "GET /api/v1/equipos/1 HTTP/1.1" 200 -
+2026-03-21 12:54:07,340 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-21 12:54:07,341 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-03-21 12:54:07,342 [INFO] werkzeug:  * Restarting with stat
+2026-03-21 12:54:09,227 [WARNING] werkzeug:  * Debugger is active!
+2026-03-21 12:54:09,230 [INFO] werkzeug:  * Debugger PIN: 103-019-607
+2026-03-21 12:54:12,344 [INFO] werkzeug: 127.0.0.1 - - [21/Mar/2026 12:54:12] "GET /apidocs/ HTTP/1.1" 200 -
+2026-03-21 12:54:12,664 [INFO] werkzeug: 127.0.0.1 - - [21/Mar/2026 12:54:12] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2026-03-21 12:54:12,668 [INFO] werkzeug: 127.0.0.1 - - [21/Mar/2026 12:54:12] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2026-03-21 12:54:12,669 [INFO] werkzeug: 127.0.0.1 - - [21/Mar/2026 12:54:12] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2026-03-21 12:54:12,671 [INFO] werkzeug: 127.0.0.1 - - [21/Mar/2026 12:54:12] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2026-03-21 12:54:13,314 [INFO] werkzeug: 127.0.0.1 - - [21/Mar/2026 12:54:13] "GET /apispec_1.json HTTP/1.1" 200 -
+2026-03-21 12:54:21,483 [INFO] api_equipos: Se busca equipo con id: 1
+2026-03-21 12:54:23,010 [INFO] werkzeug: 127.0.0.1 - - [21/Mar/2026 12:54:23] "GET /api/v1/equipos/1 HTTP/1.1" 200 -
+2026-03-21 13:06:28,855 [INFO] api_equipos: Se busca equipo con id: 2
+2026-03-21 13:06:28,866 [INFO] werkzeug: 127.0.0.1 - - [21/Mar/2026 13:06:28] "GET /api/v1/equipos/2 HTTP/1.1" 200 -
+2026-03-21 13:06:33,044 [INFO] api_equipos: Se busca equipo con id: 2
+2026-03-21 13:06:33,048 [INFO] werkzeug: 127.0.0.1 - - [21/Mar/2026 13:06:33] "GET /api/v1/equipos/2 HTTP/1.1" 200 -
+2026-03-21 13:14:04,071 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-21 13:14:04,071 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-03-21 13:14:04,074 [INFO] werkzeug:  * Restarting with stat
+2026-03-21 13:14:05,928 [WARNING] werkzeug:  * Debugger is active!
+2026-03-21 13:14:05,934 [INFO] werkzeug:  * Debugger PIN: 103-019-607
+2026-03-21 13:14:28,386 [INFO] api_equipos: Se carga la lista de todos los equipos
+2026-03-21 13:14:28,405 [INFO] werkzeug: 127.0.0.1 - - [21/Mar/2026 13:14:28] "GET /api/v1/equipos/ HTTP/1.1" 200 -
+2026-03-21 13:14:28,711 [INFO] api_equipos: Se ha creado el Equipo CP Irlandesas
+2026-03-21 13:14:28,713 [INFO] werkzeug: 127.0.0.1 - - [21/Mar/2026 13:14:28] "POST /api/v1/equipos/ HTTP/1.1" 200 -
+2026-03-21 13:14:28,970 [INFO] api_equipos: Se busca equipo con id: 10
+2026-03-21 13:14:28,984 [INFO] api_equipos: Se ha borrado el Equipo CP Irlandesas
+2026-03-21 13:14:28,984 [INFO] werkzeug: 127.0.0.1 - - [21/Mar/2026 13:14:28] "DELETE /api/v1/equipos/10 HTTP/1.1" 200 -
+2026-03-23 12:33:40,651 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-23 12:33:40,652 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-03-23 12:33:40,653 [INFO] werkzeug:  * Restarting with stat
+2026-03-23 12:33:52,254 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-23 12:33:52,254 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-03-23 12:33:52,256 [INFO] werkzeug:  * Restarting with stat
+2026-03-23 12:33:53,182 [WARNING] werkzeug:  * Debugger is active!
+2026-03-23 12:33:53,186 [INFO] werkzeug:  * Debugger PIN: 103-019-607
+2026-03-23 12:34:07,945 [INFO] werkzeug: 127.0.0.1 - - [23/Mar/2026 12:34:07] "[32mGET /apidocs HTTP/1.1[0m" 308 -
+2026-03-23 12:34:08,392 [INFO] werkzeug: 127.0.0.1 - - [23/Mar/2026 12:34:08] "GET /apidocs/ HTTP/1.1" 200 -
+2026-03-23 12:34:08,517 [INFO] werkzeug: 127.0.0.1 - - [23/Mar/2026 12:34:08] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 -
+2026-03-23 12:34:08,818 [INFO] werkzeug: 127.0.0.1 - - [23/Mar/2026 12:34:08] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 -
+2026-03-23 12:34:09,298 [INFO] werkzeug: 127.0.0.1 - - [23/Mar/2026 12:34:09] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 -
+2026-03-23 12:34:10,262 [INFO] werkzeug: 127.0.0.1 - - [23/Mar/2026 12:34:10] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+2026-03-23 12:34:10,960 [INFO] werkzeug: 127.0.0.1 - - [23/Mar/2026 12:34:10] "GET /apispec_1.json HTTP/1.1" 200 -
+2026-03-23 12:34:10,977 [INFO] werkzeug: 127.0.0.1 - - [23/Mar/2026 12:34:10] "GET /flasgger_static/favicon-32x32.png HTTP/1.1" 200 -
+2026-03-23 12:34:22,098 [INFO] api_equipos: Se carga la lista de todos los equipos
+2026-03-23 12:34:22,137 [INFO] werkzeug: 127.0.0.1 - - [23/Mar/2026 12:34:22] "GET /api/v1/equipos/ HTTP/1.1" 200 -
+2026-03-23 12:35:11,640 [INFO] api_equipos: Se carga la lista de todos los equipos
+2026-03-23 12:35:11,642 [INFO] werkzeug: 127.0.0.1 - - [23/Mar/2026 12:35:11] "GET /api/v1/equipos/ HTTP/1.1" 200 -
+2026-03-23 12:35:11,842 [INFO] api_equipos: Se ha creado el Equipo CP Irlandesas
+2026-03-23 12:35:11,843 [INFO] werkzeug: 127.0.0.1 - - [23/Mar/2026 12:35:11] "[35m[1mPOST /api/v1/equipos/ HTTP/1.1[0m" 201 -
+2026-03-23 12:35:12,048 [INFO] api_equipos: Se busca equipo con id: 11
+2026-03-23 12:35:12,457 [INFO] werkzeug: 127.0.0.1 - - [23/Mar/2026 12:35:12] "GET /api/v1/equipos/11 HTTP/1.1" 200 -
+2026-03-23 12:35:12,649 [INFO] api_equipos: Se busca equipo con id: 11
+2026-03-23 12:35:12,657 [INFO] api_equipos: Se ha borrado el Equipo CP Irlandesas
+2026-03-23 12:35:12,657 [INFO] werkzeug: 127.0.0.1 - - [23/Mar/2026 12:35:12] "DELETE /api/v1/equipos/11 HTTP/1.1" 200 -
+2026-03-23 12:35:12,908 [INFO] api_equipos: Se busca equipo con id: 9999
+2026-03-23 12:35:12,911 [ERROR] api_equipos: No se encuentra equipo con ID 9999
+2026-03-23 12:35:12,912 [INFO] werkzeug: 127.0.0.1 - - [23/Mar/2026 12:35:12] "[33mGET /api/v1/equipos/9999 HTTP/1.1[0m" 404 -
+2026-03-23 12:35:51,182 [INFO] api_equipos: Se busca equipo con id: 1
+2026-03-23 12:35:51,187 [INFO] werkzeug: 127.0.0.1 - - [23/Mar/2026 12:35:51] "GET /api/v1/equipos/1 HTTP/1.1" 200 -
+2026-03-23 12:35:59,853 [INFO] api_equipos: Se busca equipo con id: 1
+2026-03-23 12:35:59,857 [INFO] werkzeug: 127.0.0.1 - - [23/Mar/2026 12:35:59] "GET /api/v1/equipos/1 HTTP/1.1" 200 -
+2026-03-23 12:36:00,540 [INFO] api_equipos: Se busca equipo con id: 1
+2026-03-23 12:36:00,544 [INFO] werkzeug: 127.0.0.1 - - [23/Mar/2026 12:36:00] "GET /api/v1/equipos/1 HTTP/1.1" 200 -
+2026-03-23 12:36:00,804 [INFO] api_equipos: Se busca equipo con id: 1
+2026-03-23 12:36:00,811 [INFO] werkzeug: 127.0.0.1 - - [23/Mar/2026 12:36:00] "GET /api/v1/equipos/1 HTTP/1.1" 200 -
+2026-03-23 12:36:00,850 [INFO] api_equipos: Se busca equipo con id: 1
+2026-03-23 12:36:00,855 [INFO] werkzeug: 127.0.0.1 - - [23/Mar/2026 12:36:00] "GET /api/v1/equipos/1 HTTP/1.1" 200 -
+2026-03-23 12:36:01,130 [INFO] api_equipos: Se busca equipo con id: 1
+2026-03-23 12:36:01,134 [INFO] werkzeug: 127.0.0.1 - - [23/Mar/2026 12:36:01] "GET /api/v1/equipos/1 HTTP/1.1" 200 -
+2026-03-23 12:36:01,409 [INFO] api_equipos: Se busca equipo con id: 1
+2026-03-23 12:36:01,412 [INFO] werkzeug: 127.0.0.1 - - [23/Mar/2026 12:36:01] "GET /api/v1/equipos/1 HTTP/1.1" 200 -
+2026-03-23 12:36:01,720 [INFO] api_equipos: Se busca equipo con id: 1
+2026-03-23 12:36:01,726 [INFO] werkzeug: 127.0.0.1 - - [23/Mar/2026 12:36:01] "GET /api/v1/equipos/1 HTTP/1.1" 200 -
+2026-03-23 12:36:02,065 [INFO] api_equipos: Se busca equipo con id: 1
+2026-03-23 12:36:02,070 [INFO] werkzeug: 127.0.0.1 - - [23/Mar/2026 12:36:02] "GET /api/v1/equipos/1 HTTP/1.1" 200 -
+2026-03-24 16:00:34,763 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-24 16:00:34,764 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-03-24 16:00:34,767 [INFO] werkzeug:  * Restarting with stat
+2026-03-24 16:00:36,377 [WARNING] werkzeug:  * Debugger is active!
+2026-03-24 16:00:36,381 [INFO] werkzeug:  * Debugger PIN: 103-019-607
+2026-03-24 16:00:44,932 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2026 16:00:44] "[32mGET /apidocs HTTP/1.1[0m" 308 -
+2026-03-24 16:00:45,423 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2026 16:00:45] "GET /apidocs/ HTTP/1.1" 200 -
+2026-03-24 16:00:45,651 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2026 16:00:45] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 -
+2026-03-24 16:00:45,970 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2026 16:00:45] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 -
+2026-03-24 16:00:46,515 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2026 16:00:46] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 -
+2026-03-24 16:00:47,806 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2026 16:00:47] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+2026-03-24 16:00:48,667 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2026 16:00:48] "GET /apispec_1.json HTTP/1.1" 200 -
+2026-03-24 16:01:18,048 [INFO] api_equipos: Se busca equipo con id: 1
+2026-03-24 16:01:19,439 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2026 16:01:19] "GET /api/v1/equipos/1 HTTP/1.1" 200 -
+2026-03-28 11:30:31,270 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-28 11:30:31,271 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-03-28 11:30:31,272 [INFO] werkzeug:  * Restarting with stat
+2026-03-28 11:30:32,298 [WARNING] werkzeug:  * Debugger is active!
+2026-03-28 11:30:32,301 [INFO] werkzeug:  * Debugger PIN: 103-019-607
+2026-03-28 11:30:56,298 [INFO] werkzeug: 127.0.0.1 - - [28/Mar/2026 11:30:56] "[32mGET /apidocs HTTP/1.1[0m" 308 -
+2026-03-28 11:30:56,743 [INFO] werkzeug: 127.0.0.1 - - [28/Mar/2026 11:30:56] "GET /apidocs/ HTTP/1.1" 200 -
+2026-03-28 11:30:56,879 [INFO] werkzeug: 127.0.0.1 - - [28/Mar/2026 11:30:56] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 -
+2026-03-28 11:30:57,253 [INFO] werkzeug: 127.0.0.1 - - [28/Mar/2026 11:30:57] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 -
+2026-03-28 11:30:58,228 [INFO] werkzeug: 127.0.0.1 - - [28/Mar/2026 11:30:58] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 -
+2026-03-28 11:30:58,893 [INFO] werkzeug: 127.0.0.1 - - [28/Mar/2026 11:30:58] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+2026-03-28 11:30:59,567 [INFO] werkzeug: 127.0.0.1 - - [28/Mar/2026 11:30:59] "GET /apispec_1.json HTTP/1.1" 200 -
+2026-03-28 11:31:14,601 [INFO] api_equipos: Se carga la lista de todos los equipos
+2026-03-28 11:31:14,642 [INFO] werkzeug: 127.0.0.1 - - [28/Mar/2026 11:31:14] "GET /api/v1/equipos/ HTTP/1.1" 200 -
+2026-03-28 11:32:32,918 [INFO] werkzeug: 127.0.0.1 - - [28/Mar/2026 11:32:32] "[35m[1mPOST /api/v1/equipos/ HTTP/1.1[0m" 500 -
+2026-03-28 11:33:00,904 [INFO] werkzeug: 127.0.0.1 - - [28/Mar/2026 11:33:00] "[35m[1mPOST /api/v1/equipos/ HTTP/1.1[0m" 500 -
+2026-03-28 11:34:05,409 [INFO] api_equipos: Se busca equipo con id: 1
+2026-03-28 11:34:06,223 [INFO] werkzeug: 127.0.0.1 - - [28/Mar/2026 11:34:06] "GET /api/v1/equipos/1 HTTP/1.1" 200 -
+2026-03-28 11:34:24,985 [INFO] api_equipos: Se busca equipo con id: 1
+2026-03-28 11:34:24,988 [INFO] werkzeug: 127.0.0.1 - - [28/Mar/2026 11:34:24] "GET /api/v1/equipos/1 HTTP/1.1" 200 -
+2026-03-28 11:34:25,952 [INFO] api_equipos: Se busca equipo con id: 1
+2026-03-28 11:34:25,956 [INFO] werkzeug: 127.0.0.1 - - [28/Mar/2026 11:34:25] "GET /api/v1/equipos/1 HTTP/1.1" 200 -
+2026-03-28 11:34:26,218 [INFO] api_equipos: Se busca equipo con id: 1
+2026-03-28 11:34:26,222 [INFO] werkzeug: 127.0.0.1 - - [28/Mar/2026 11:34:26] "GET /api/v1/equipos/1 HTTP/1.1" 200 -
+2026-03-28 11:34:51,878 [INFO] api_equipos: Se carga la lista de todos los equipos
+2026-03-28 11:34:51,880 [INFO] werkzeug: 127.0.0.1 - - [28/Mar/2026 11:34:51] "GET /api/v1/equipos/ HTTP/1.1" 200 -
+2026-03-28 11:34:52,070 [INFO] api_equipos: Se ha creado el Equipo CP Irlandesas
+2026-03-28 11:34:52,071 [INFO] werkzeug: 127.0.0.1 - - [28/Mar/2026 11:34:52] "[35m[1mPOST /api/v1/equipos/ HTTP/1.1[0m" 201 -
+2026-03-28 11:34:52,248 [INFO] api_equipos: Se busca equipo con id: 14
+2026-03-28 11:34:52,251 [INFO] werkzeug: 127.0.0.1 - - [28/Mar/2026 11:34:52] "GET /api/v1/equipos/14 HTTP/1.1" 200 -
+2026-03-28 11:34:52,434 [INFO] api_equipos: Se busca equipo con id: 14
+2026-03-28 11:34:52,444 [INFO] api_equipos: Se ha borrado el Equipo CP Irlandesas
+2026-03-28 11:34:52,444 [INFO] werkzeug: 127.0.0.1 - - [28/Mar/2026 11:34:52] "DELETE /api/v1/equipos/14 HTTP/1.1" 200 -
+2026-03-28 11:34:52,629 [INFO] api_equipos: Se busca equipo con id: 9999
+2026-03-28 11:34:52,631 [ERROR] api_equipos: No se encuentra equipo con ID 9999
+2026-03-28 11:34:52,633 [INFO] werkzeug: 127.0.0.1 - - [28/Mar/2026 11:34:52] "[33mGET /api/v1/equipos/9999 HTTP/1.1[0m" 404 -
+2026-03-28 11:36:57,324 [INFO] api_equipos: Se ha creado el Equipo CP Irlandesas
+2026-03-28 11:36:57,326 [INFO] werkzeug: 127.0.0.1 - - [28/Mar/2026 11:36:57] "[35m[1mPOST /api/v1/equipos/ HTTP/1.1[0m" 201 -

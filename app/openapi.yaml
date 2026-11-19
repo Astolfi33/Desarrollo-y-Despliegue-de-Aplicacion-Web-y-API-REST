@@ -1,0 +1,194 @@
+openapi: 3.0.3
+info:
+  title: API de Equipos
+  description: Servicio para gestionar los equipos de la OK Liga.
+  version: 1.0.0
+servers:
+  - url: http://localhost:5000/api/v1
+    description: Servidor local de desarrollo
+components:
+  schemas:
+    Equipo:
+      type: object
+      required:
+        - id
+        - nombre
+        - ciudad
+        - ccaa
+        - fundacion
+        - pabellon
+        - capacidad
+      properties:
+        id:
+          type: integer
+          example: 1
+        nombre:
+          type: string
+          example: "HC Liceo"
+        ciudad:
+          type: string
+          example: "A Coruña"
+        ccaa:
+          type: string
+          example: "Galicia"
+        fundacion:
+          type: integer
+          example: 1902
+        pabellon:
+          type: string
+          example: "Palacio de los Deportes de Riazor"
+        capacidad:
+          type: integer
+          example: 15000
+        max_anotador:
+          type: string
+          example: "Jacobo Copa"
+        usuario_id:
+          type: string
+          format: uuid
+
+    NewEquipo:
+      type: object
+      required:
+        - nombre
+        - ciudad
+        - ccaa
+        - fundacion
+        - pabellon
+        - capacidad
+      properties:
+        nombre:
+          type: string
+        ciudad:
+          type: string
+        ccaa:
+          type: string
+        fundacion:
+          type: integer
+        pabellon:
+          type: string
+        capacidad:
+          type: integer
+        max_anotador:
+          type: string
+        usuario_id:
+          type: string
+
+    EditEquipo:
+      type: object
+      properties:
+        nombre:
+          type: string
+        ciudad:
+          type: string
+        ccaa:
+          type: string
+        fundacion:
+          type: integer
+        pabellon:
+          type: string
+        capacidad:
+          type: integer
+        max_anotador:
+          type: string
+        usuario_id:
+          type: string
+
+paths:
+  /equipos/:
+    get:
+      summary: Obtiene la lista de todos los equipos
+      tags:
+        - Equipos
+      responses:
+        "200":
+          description: Lista de equipos recuperada con éxito.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Equipo"
+    post:
+      summary: Crea un nuevo equipo en el sistema
+      tags:
+        - Equipos
+      requestBody:
+        description: Objeto JSON con los datos del nuevo equipo
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/NewEquipo"
+      responses:
+        "201":
+          description: Equipo creado con éxito. Devuelve el equipo con su nuevo ID.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Equipo"
+        "400":
+          description: Error de validación en los datos enviados.
+
+  /equipos/{id}:
+    get:
+      summary: Obtiene un equipo concreto por su ID
+      tags:
+        - Equipos
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: Equipo recuperado con éxito.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Equipo"
+        "404":
+          description: Equipo no encontrado.
+    put:
+      summary: Actualiza un equipo existente
+      tags:
+        - Equipos
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/EditEquipo"
+      responses:
+        "200":
+          description: Equipo actualizado con éxito.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Equipo"
+        "400":
+          description: Error de validación en los datos enviados.
+        "404":
+          description: Equipo no encontrado.
+    delete:
+      summary: Elimina un equipo del sistema
+      tags:
+        - Equipos
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: Equipo eliminado correctamente.
+        "404":
+          description: Equipo no encontrado.
